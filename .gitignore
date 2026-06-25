@@ -1,0 +1,20 @@
+# Virtual environments — never commit these. They are large and OS-specific,
+# which is exactly what broke cross-platform use.
+venv/
+.venv/
+env/
+
+# Secrets — keep the real key out of version control. Commit .env.example instead.
+.env
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
