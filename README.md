@@ -1,5 +1,7 @@
 # Ask Athreya — AI Data Analyst Agent
 
+[![CI](https://github.com/KiranParitala95/Ask-Athreya/actions/workflows/ci.yml/badge.svg)](https://github.com/KiranParitala95/Ask-Athreya/actions/workflows/ci.yml)
+
 An AI agent that answers questions about any CSV or Excel file in plain
 English. Ask it something like *"which column has the most nulls?"* or *"what's
 the average salary by department?"* and it figures out how to get the answer
